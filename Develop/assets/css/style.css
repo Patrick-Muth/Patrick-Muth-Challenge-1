@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*changed class name to be more descriptive of it's purpose*/
 .cover-image {
     height: 800px;
     width: 100%;
@@ -85,23 +85,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*reduced classes that were repeating into one class, this class is for positioning the side bar paragraphs*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*reduced repeating header classes*/
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*reduced repeating img classes*/
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*more reduced classes this time for the three central paragraphs*/
 .id-stylings {
     margin-bottom: 20px;
     padding: 50px;
@@ -110,11 +110,11 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*reduced image classes*/
 .id-stylings img {
     max-height: 200px;
 }
-
+/*reduced header classes*/
 .id-stylings h2 {
     margin-bottom: 20px;
     font-size: 36px;
